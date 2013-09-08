@@ -39,8 +39,4 @@ class Persona
 
   }
 
-  public function logout()
-  {
-    Event::fire('persona.login_attempt', array($response));
-  }
 }
